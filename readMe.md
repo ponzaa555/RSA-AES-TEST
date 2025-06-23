@@ -9,7 +9,7 @@
 
 - ฝั่ง Server จะเข้า decrypt AES key โดยใช้ private key ที่ตัวเองมี และใช้ AES decrypt data  อีกทีนึง
 
-# Code แบ่งเป็น 3 ส่วร
+# Code แบ่งเป็น 3 ส่วน
 1) สร้าง RSA keypair และ AES key
 ``` typescript
 const pki = forge.pki;
